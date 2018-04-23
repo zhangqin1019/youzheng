@@ -1,0 +1,1778 @@
+#contain{
+    width: 100%;
+}
+/*头部登录注册样式*/
+#head{
+    width: 100%;
+    background-color: #F3F6F4;
+}
+#head-content{
+    width: 1193px;
+    height: 30px;
+    margin: 0px auto;
+    background-color: #F3F6F4;
+}
+#head-content-right{
+    float: right;
+}
+#head-content-right ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#head-content-right ul li{
+    list-style-type: none;
+    float:left;
+}
+#head-content-right ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color:gray;
+    line-height: 30px;
+}
+#head-content-right ul li a:hover{
+    color:#E75A50 ;
+}
+#head-content-right ul li span{
+    font-size: 14px;
+    color: grey;
+}
+#head-content-right .line{
+    font-size: 14px;
+    color: gray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#head-content-right .a{
+    cursor: pointer;
+    font-size: 14px;
+    color: #E75A50;
+}
+
+/*头部搜索栏样式*/
+#search{
+    width: 100%;
+}
+#search-contain{
+    width: 1193px;
+    height: 150px;
+    margin: 0px auto;
+    position: relative;
+}
+/*图标样式*/
+#head-title{
+    background-image: url("../images/tubiao.gif");
+    background-repeat: no-repeat;
+    height: 76px;
+    width: 399px;
+    float: left;
+}
+/*搜索栏样式*/
+#search-content{
+    float: left;
+    margin-left: 80px;
+    margin-top:15px;
+}
+#search-content input{
+    width: 400px;
+    height: 32px;
+    outline: none;
+    border: 2px solid #00674A;
+}
+#search-content a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+
+    padding: 8px 30px 12px;
+    background-color:#00674A ;
+}
+#search-content a:hover{
+    color: #D2EEE0;
+}
+/*客服样式*/
+#kefu{
+    width: 93px;
+    height: 80px;
+    float: right;
+    background-image: url("../images/kefu.gif");
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    z-index: 1;
+}
+/*跑马灯样式*/
+#horseRunLamp{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    left: 0px;
+    top: 110px;
+    z-index: 3;
+}
+/*邮筒样式*/
+#youtong{
+    width: 228px;
+    height: 45px;
+    position: absolute;
+    left:-24px;
+    top:106px ;
+    background-image: url("../images/youtong1.gif");
+    background-repeat: no-repeat;
+}
+/*导航栏样式*/
+#daohang{
+    position: absolute;
+    left:230px;
+    top:128px;
+}
+#daohang ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#daohang ul li{
+    list-style-type: none;
+    float: left;
+    height: 30px;
+}
+#daohang ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+#wenhua{
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    left: -180px;
+    z-index: 3;
+    background-color: #27745A;
+    display: none;
+}
+#wenhua p{
+    padding-left: 10px;
+}
+#daohang #wenhua p a{
+    text-decoration: none;
+    color: white;
+}
+/*banner样式*/
+#banner{
+    width: 100%;
+    background-color: #1CB37A;
+    position: relative;
+}
+#banner-content{
+    width: 1193px;
+    height: 476px;
+    margin: 0px auto;
+    position: relative;
+}
+/*左侧导航栏样式*/
+#banner-left{
+    width: 181px;
+    height: 476px;
+    background-image: url("../images/youtongbg.gif");
+    position: relative;
+}
+#banner-left ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#banner-left ul li{
+    list-style-type: none;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    height: 35px;
+    line-height: 35px;
+}
+#banner-left ul li:hover{
+    background-color: #F5C400;
+}
+#banner-left ul li a{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 35px;
+    width:80px;
+}
+#banner-left span{
+    position: absolute;
+    right: 20px;
+    color: white;
+}
+/*票品题材内容样式*/
+#piaopin{
+    width: 150px;
+    height: 476px;
+    position: absolute;
+    left:181px;
+    top: -2px;
+    display: none;
+    z-index: 3;
+    background-color: white;
+}
+#piaopin ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#piaopin ul li{
+    list-style-type: none;
+    height: 35px;
+    line-height: 35px;
+    width: 120px;
+    margin-left: 5px;
+    margin-right:5px;
+    border-bottom: 1px solid gray;
+}
+#piaopin ul li:hover{
+    background-color: white;
+}
+#piaopin ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+    height: 35px;
+    line-height: 35px;
+}
+#piaopin ul li a:hover{
+    color: #F35531;
+}
+/*中国邮票内容样式*/
+#zhongguo{
+    width: 150px;
+    height: 476px;
+    position: absolute;
+    left:181px;
+    top: -2px;
+    display: none;
+    z-index: 3;
+    background-color: white;
+}
+#zhognguo ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#zhongguo ul li{
+    list-style-type: none;
+    height: 35px;
+    line-height: 35px;
+    width: 120px;
+    margin-left: 5px;
+    margin-right:5px;
+    border-bottom: 1px solid gray;
+}
+#zhongguo ul li:hover{
+    background-color: white;
+}
+#zhongguo ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+    height: 35px;
+    line-height: 35px;
+}
+#zhongguo ul li a:hover{
+    color: #F35531;
+}
+/*邮资封片内容样式*/
+#youzi{
+    width: 150px;
+    height: 476px;
+    position: absolute;
+    left:181px;
+    top: -2px;
+    display: none;
+    z-index: 3;
+    background-color: white;
+}
+#youzi ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#youzi ul li{
+    list-style-type: none;
+    height: 35px;
+    line-height: 35px;
+    width: 120px;
+    margin-left: 5px;
+    margin-right:5px;
+    border-bottom: 1px solid gray;
+}
+#youzi ul li:hover{
+    background-color: white;
+}
+#youzi ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+    height: 35px;
+    line-height: 35px;
+}
+#youzi ul li a:hover{
+    color: #F35531;
+}
+/*个性化邮票内容样式*/
+#gexing{
+    width: 150px;
+    height: 476px;
+    position: absolute;
+    left:181px;
+    top: -2px;
+    display: none;
+    z-index: 3;
+    background-color: white;
+}
+#gexing ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#gexing ul li{
+    list-style-type: none;
+    height: 35px;
+    line-height: 35px;
+    width: 120px;
+    margin-left: 5px;
+    margin-right:5px;
+    border-bottom: 1px solid gray;
+}
+#gexing ul li:hover{
+    background-color: white;
+}
+#gexing ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+    height: 35px;
+    line-height: 35px;
+}
+#gexing ul li a:hover{
+    color: #F35531;
+}
+/*港澳邮票内容样式*/
+#gangao{
+    width: 150px;
+    height: 476px;
+    position: absolute;
+    left:181px;
+    top: -2px;
+    display: none;
+    z-index: 3;
+    background-color: white;
+}
+#gangao ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#gangao ul li{
+    list-style-type: none;
+    height: 35px;
+    line-height: 35px;
+    width: 120px;
+    margin-left: 5px;
+    margin-right:5px;
+    border-bottom: 1px solid gray;
+}
+#gangao ul li:hover{
+    background-color: white;
+}
+#gangao ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+    height: 35px;
+    line-height: 35px;
+}
+#gangao ul li a:hover{
+    color: #F35531;
+}
+/*外国邮票内容样式*/
+#waiguo{
+    width: 150px;
+    height: 476px;
+    position: absolute;
+    left:181px;
+    top: -2px;
+    display: none;
+    z-index: 3;
+    background-color: white;
+}
+#waiguo ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#waiguo ul li{
+    list-style-type: none;
+    height: 35px;
+    line-height: 35px;
+    width: 120px;
+    margin-left: 5px;
+    margin-right:5px;
+    border-bottom: 1px solid gray;
+}
+#waiguo ul li:hover{
+    background-color: white;
+}
+#waiguo ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+    height: 35px;
+    line-height: 35px;
+}
+#waiguo ul li a:hover{
+    color: #F35531;
+}
+/*集邮品内容样式*/
+#jiyou{
+    width: 150px;
+    height: 476px;
+    position: absolute;
+    left:181px;
+    top: -2px;
+    display: none;
+    z-index: 3;
+    background-color: white;
+}
+#jiyou ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#jiyou ul li{
+    list-style-type: none;
+    height: 35px;
+    line-height: 35px;
+    width: 120px;
+    margin-left: 5px;
+    margin-right:5px;
+    border-bottom: 1px solid gray;
+}
+#jiyou ul li:hover{
+    background-color: white;
+}
+#jiyou ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+    height: 35px;
+    line-height: 35px;
+}
+#jiyou ul li a:hover{
+    color: #F35531;
+}
+/*集邮商品内容样式*/
+#shangpin{
+    width: 150px;
+    height: 476px;
+    position: absolute;
+    left:181px;
+    top: -2px;
+    display: none;
+    z-index: 3;
+    background-color: white;
+}
+#shangpin ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#shangpin ul li{
+    list-style-type: none;
+    height: 35px;
+    line-height: 35px;
+    width: 120px;
+    margin-left: 5px;
+    margin-right:5px;
+    border-bottom: 1px solid gray;
+}
+#shangpin ul li:hover{
+    background-color: white;
+}
+#shangpin ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+    height: 35px;
+    line-height: 35px;
+}
+#shangpin ul li a:hover{
+    color: #F35531;
+}
+/*集邮用品内容样式*/
+#yongpin{
+    width: 150px;
+    height: 476px;
+    position: absolute;
+    left:181px;
+    top: -2px;
+    display: none;
+    z-index: 3;
+    background-color: white;
+}
+#yongpin ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#yongpin ul li{
+    list-style-type: none;
+    height: 35px;
+    line-height: 35px;
+    width: 120px;
+    margin-left: 5px;
+    margin-right:5px;
+    border-bottom: 1px solid gray;
+}
+#yongpin ul li:hover{
+    background-color: white;
+}
+#yongpin ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+    height: 35px;
+    line-height: 35px;
+}
+#yongpin ul li a:hover{
+    color: #F35531;
+}
+/*图片轮播样式*/
+#banner-middle{
+    width: 812px;
+    height: 476px;
+    position: absolute;
+    top: 0px;
+    left:181px;
+    z-index: 1;
+    cursor: pointer;
+}
+/*图片按钮样式*/
+#img-btn{
+    position: absolute;
+    left:191px;
+    bottom: 0px;
+    z-index: 2;
+}
+#img-btn input{
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #777;
+}
+/*右侧服务部分样式*/
+#banner-right{
+    width: 200px;
+    height: 476px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    opacity: 0.8;
+}
+/*安卓 微信 iso样式*/
+#banner-right-top{
+    width: 200px;
+    height: 200px;
+    background-color: #ebf7f1;
+}
+#banner-right-top ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#banner-right-top ul{
+    overflow: auto;
+}
+#banner-right-top ul li{
+    list-style-type: none;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00674a;
+    width: 66px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #ebf7f1;
+}
+/*新闻 公告 博览样式*/
+#banner-right-bottom{
+    width: 200px;
+    height: 30px;
+    background-color: #ebf7f1;
+    margin-top: 1px;
+}
+#banner-right-bottom ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#banner-right-bottom ul li{
+    list-style-type: none;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00674a;
+    width: 66px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #ebf7f1;
+}
+/*新闻内容样式*/
+#banner-right-bottom-content1{
+    width: 200px;
+    height: 244px;
+    background-color:#ebf7f1 ;
+    display: block;
+}
+#banner-right-bottom-content1 ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#banner-right-bottom-content1 ul li{
+    list-style-type: none;
+    height: 30px;
+}
+#banner-right-bottom-content1 ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+    height: 30px;
+    line-height: 30px;
+}
+#banner-right-bottom-content1 ul li a:hover{
+    color:#F35531;
+}
+/*公告内容样式*/
+#banner-right-bottom-content2{
+    width: 200px;
+    height: 244px;
+    background-color:#ebf7f1 ;
+    display: none;
+}
+#banner-right-bottom-content2 ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#banner-right-bottom-content2 ul li{
+    list-style-type: none;
+    height: 30px;
+}
+#banner-right-bottom-content2 ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+    height: 30px;
+    line-height: 30px;
+}
+#banner-right-bottom-content2 ul li a:hover{
+    color:#F35531;
+}
+/*博览内容样式*/
+#banner-right-bottom-content3 {
+    width: 200px;
+    height: 244px;
+    background-color: #ebf7f1;
+    display: none;
+}
+#banner-right-bottom-content3 ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#banner-right-bottom-content3 ul li{
+    list-style-type: none;
+    height: 30px;
+}
+#banner-right-bottom-content3 ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+    height: 30px;
+    line-height: 30px;
+}
+#banner-right-bottom-content3 ul li a:hover{
+    color:#F35531;
+}
+/*主体部分样式*/
+#content{
+    width: 100%;
+    background-color: #F4F4F4;
+    margin: 0px;
+}
+#contents{
+    width: 1193px;
+    margin: 0px auto;
+    background-color:#F4F4F4;
+}
+#images-content{
+    width: 1193px;
+    height: 220px;
+    margin: 0px auto;
+    position: relative;
+    padding-top: 10px;
+}
+/*视频播放样式*/
+#video{
+    width: 324px;
+    height: 180px;
+    margin-top: 20px;
+}
+/*推荐图片样式*/
+#tuijian{
+    width: 180px;
+    height: 178px;
+    position:absolute ;
+    left: 384px;
+    top:22px;
+    background-image: url("../images/tuijian.gif");
+    background-repeat: no-repeat;
+}
+/*猴图片样式*/
+#hou{
+    width: 289px;
+    height: 178px;
+    position: absolute;
+    left: 624px;
+    top:22px;
+    background-image: url("../images/hou.gif");
+    background-repeat: no-repeat;
+}
+#hou a{
+    position: absolute;
+    width: 140px;
+    height: 95px;
+    left:75px;
+    top:41px;
+}
+/*图书样式*/
+#book{
+    width: 289px;
+    height: 178px;
+    position: absolute;
+    right: 0px;
+    top:22px;
+    background-image: url("../images/book.gif");
+    background-repeat: no-repeat;
+}
+#book a{
+    width: 105px;
+    height: 140px;
+    position: absolute;
+    left:90px ;
+    top: 18px;
+}
+/*红楼梦样式*/
+#hongloumeng{
+    width: 1193px;
+    height: 501px;
+    margin: 0px auto;
+    position: relative;
+}
+#hongloumeng p{
+    margin: 0px;
+    padding: 0px;
+    background-color: #00674A;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+#hongloumeng p a{
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    color: white;
+}
+#hongloumeng-ad{
+    width: 402px;
+    height: 441px;
+    background-image: url("../images/hongloumeng.gif");
+    background-repeat: no-repeat;
+    border-left: 1px solid  #00674A;
+    border-right: 1px solid  #00674A;
+    position: relative;
+}
+.touming {
+    width: 402px;
+    height: 441px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+}
+.touming:hover{
+    width: 402px;
+    height: 441px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+    opacity: 0.2;
+    background-color: white;
+}
+#hongloumeng-ad1{
+    width: 800px;
+    height: 441px;
+    position: absolute;
+    left: 404px;
+    top:30px;
+}
+#hongloumeng-ad1 dl,#hongloumeng-ad1 dl dt, #hongloumeng-ad1 dl dd{
+    padding: 0px;
+    margin: 0px;
+}
+#hongloumeng-ad1 dl{
+    float: left;
+    width: 196px;
+    height: 220px;
+    border-right: 1px solid #00674A;
+    border-bottom: 1px solid #00674A;
+    background-color: white;
+}
+#hongloumeng-ad1 dl:hover{
+    background-color: #FAFAFA;
+}
+#hongloumeng-ad1 dl dt{
+    margin: 25px 35px;
+    height: 120px;
+    width: 120px;
+}
+#hongloumeng-ad1 dl dd{
+    height: 30px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+#hongloumeng-ad1 dl dd a{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+}
+#hongloumeng-ad1 dl dd a:hover{
+    color: #8EBAAE;
+}
+#hongloumeng-ad1 dl dd .yushou{
+    color: red;
+    font-size: 12px;
+    float: right;
+}
+#hongloumeng-ad1 dl dd .wuhuo{
+    color: gray;
+    font-size: 12px;
+    float: right;
+}
+#hongloumeng-ad1 dl dd .weishou{
+    color: gray;
+    font-size: 12px;
+    float: right;
+}
+#hongloumeng-ad1 dl .money{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+#br{
+    width: 1193px;
+    height: 9px;
+    background-image: url("../images/green.gif");
+    background-repeat: repeat;
+}
+/*邮票零售样式*/
+#youpiao{
+    width: 1193px;
+    height: 501px;
+    margin: 0px auto;
+    position: relative;
+}
+#youpiao p{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFD300;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+#youpiao p a{
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    color: white;
+}
+#youpiao-ad{
+    width: 402px;
+    height: 440px;
+    background-image: url("../images/youpiao.gif");
+    background-repeat: no-repeat;
+    border-left: 1px solid #FFD300;
+    border-right: 1px solid #FFD300;
+    position: relative;
+}
+#youpiao-ad1{
+    width: 800px;
+    height: 440px;
+    position: absolute;
+    left: 404px;
+    top:30px;
+}
+#youpiao-ad1 dl,#youpiao-ad1 dl dt, #youpiao-ad1 dl dd{
+    padding: 0px;
+    margin: 0px;
+}
+#youpiao-ad1 dl{
+    float: left;
+    width: 196px;
+    height: 220px;
+    border-right: 1px solid #FFD300;
+    border-bottom: 1px solid #FFD300;
+    background-color: white;
+}
+#youpiao-ad1 dl:hover{
+    background-color: #FAFAFA;
+}
+#youpiao-ad1 dl dt{
+    margin: 20px 35px;
+    height: 120px;
+}
+#youpiao-ad1 dl dd{
+    height: 30px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+#youpiao-ad1 dl dd a{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+}
+#youpiao-ad1 dl dd a:hover{
+    color:#8EBAAE ;
+}
+#youpiao-ad1 dl dd .wuhuo{
+    color: gray;
+    font-size: 12px;
+    float: right;
+}
+#youpiao-ad1 dl dd .weishou{
+    color: gray;
+    font-size: 12px;
+    float: right;
+}
+#youpiao-ad1 dl .money{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+#br1{
+    width: 1193px;
+    height: 9px;
+    background-image: url("../images/yellow.gif");
+    background-repeat: repeat;
+}
+/*悦读样式*/
+#yuedu{
+    width: 1193px;
+    height: 120px;
+    margin: 0px auto;
+    background-image: url("../images/yuedu.gif");
+    background-repeat: no-repeat;
+}
+/*珍邮样式*/
+#zhenyou{
+    width: 1193px;
+    height: 501px;
+    margin: 0px auto;
+    position: relative;
+}
+#zhenyou p{
+    margin: 0px;
+    padding: 0px;
+    background-color: #E75A50;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+#zhenyou p a{
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    color: white;
+}
+#zhenyou-ad{
+    width: 402px;
+    height: 440px;
+    background-image: url("../images/zhenyou.gif");
+    background-repeat: no-repeat;
+    border-left: 1px solid #E75A50;
+    border-right: 1px solid #E75A50;
+    position: relative;
+}
+#zhenyou-ad1{
+    width: 800px;
+    height: 440px;
+    position: absolute;
+    left: 404px;
+    top:30px;
+}
+#zhenyou-ad1 dl,#zhenyou-ad1 dl dt, #zhenyou-ad1 dl dd{
+    padding: 0px;
+    margin: 0px;
+}
+#zhenyou-ad1 dl{
+    float: left;
+    width: 196px;
+    height: 220px;
+    border-right: 1px solid #E75A50;
+    border-bottom: 1px solid #E75A50;
+    background-color: white;
+}
+#zhenyou-ad1 dl:hover{
+    background-color: #FAFAFA;
+}
+#zhenyou-ad1 dl dt{
+    margin: 20px 35px;
+    height: 120px;
+}
+#zhenyou-ad1 dl dd{
+    height: 30px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+#zhenyou-ad1 dl dd a{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+}
+#zhenyou-ad1 dl dd a:hover{
+    color: #8EBAAE;
+}
+#zhenyou-ad1 dl .money{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+#br2{
+    width: 1193px;
+    height: 9px;
+    background-image: url("../images/pink.gif");
+    background-repeat: repeat;
+}
+/*传统文化样式*/
+#chuantong{
+    width: 1193px;
+    height: 501px;
+    margin: 0px auto;
+    position: relative;
+}
+#chuantong p{
+    margin: 0px;
+    padding: 0px;
+    background-color: #00674A;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+#chuantong p a{
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    color: white;
+}
+#chuantong-ad{
+    width: 402px;
+    height: 440px;
+    background-image: url("../images/chuantong.gif");
+    background-repeat: no-repeat;
+    border-left: 1px solid #00674A;
+    border-right: 1px solid #00674A;
+    position: relative;
+}
+#chuantong-ad1 {
+    width: 800px;
+    height: 440px;
+    position: absolute;
+    left: 404px;
+    top: 30px;
+}
+#chuantong-ad1 dl,#chuantong-ad1 dl dt, #chuantong-ad1 dl dd{
+    padding: 0px;
+    margin: 0px;
+}
+#chuantong-ad1 dl{
+    float: left;
+    width: 196px;
+    height: 220px;
+    border-right: 1px solid #00674A;
+    border-bottom: 1px solid #00674A;
+    background-color: white;
+}
+#chuantong-ad1 dl:hover{
+    background-color: #FAFAFA;
+}
+#chuantong-ad1 dl dt{
+    margin: 20px 35px;
+    height: 120px;
+    width: 120px;
+}
+#chuantong-ad1 dl dd{
+    height: 30px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+#chuantong-ad1 dl dd a{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+}
+#chuantong-ad1 dl dd a:hover{
+    color:#8EBAAE ;
+}
+#chuantong-ad1 dl .money{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+#chuantong-ad1 dl dd .yushou{
+    color: red;
+    font-size: 12px;
+    float: right;
+}
+#br3{
+    width: 1193px;
+    height: 9px;
+    background-image: url("../images/green.gif");
+    background-repeat: repeat;
+}
+/*集邮精品样式*/
+#jingpin{
+    width: 1193px;
+    height: 120px;
+    margin: 0px auto;
+    background-image: url("../images/jiyou.gif");
+    background-repeat: no-repeat;
+}
+/*端午样式*/
+#duanwu{
+    width: 1193px;
+    height: 501px;
+    margin: 0px auto;
+    position: relative;
+}
+#duanwu p{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFD300;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+#duanwu p a{
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    color: white;
+}
+#duanwu-ad{
+    width: 402px;
+    height: 440px;
+    background-image: url("../images/youpiao.gif");
+    background-repeat: no-repeat;
+    border-left: 1px solid #FFD300;
+    border-right: 1px solid #FFD300;
+    position: relative;
+}
+#duanwu-ad1{
+    width: 800px;
+    height: 440px;
+    position: absolute;
+    left: 404px;
+    top:30px;
+}
+#duanwu-ad1 dl,#duanwu-ad1 dl dt, #duanwu-ad1 dl dd{
+    padding: 0px;
+    margin: 0px;
+}
+#duanwu-ad1 dl{
+    float: left;
+    width: 196px;
+    height: 220px;
+    border-right: 1px solid #FFD300;
+    border-bottom: 1px solid #FFD300;
+    background-color: white;
+}
+#duanwu-ad1 dl:hover{
+    background-color: #FAFAFA;
+}
+#duanwu-ad1 dl dt{
+    margin: 20px 35px;
+    height: 120px;
+}
+#duanwu-ad1 dl dd{
+    height: 30px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+#duanwu-ad1 dl dd a{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+}
+#duanwu-ad1 dl dd a:hover{
+    color:#8EBAAE ;
+}
+#duanwu-ad1 dl dd .wuhuo{
+    color: gray;
+    font-size: 12px;
+    float: right;
+}
+#duanwu-ad1 dl dd .yushou{
+    color: red;
+    font-size: 12px;
+    float: right;
+}
+#duanwu-ad1 dl .money{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+#br4{
+    width: 1193px;
+    height: 9px;
+    background-image: url("../images/yellow.gif");
+    background-repeat: repeat;
+}
+/*长征样式*/
+#changzheng{
+    width: 1193px;
+    height: 501px;
+    margin: 0px auto;
+    position: relative;
+}
+#changzheng p{
+    margin: 0px;
+    padding: 0px;
+    background-color: #E75A50;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+#changzheng p a{
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    color: white;
+}
+#changzheng-ad{
+    width: 402px;
+    height: 440px;
+    background-image: url("../images/changzheng.gif");
+    background-repeat: no-repeat;
+    border-left: 1px solid #E75A50;
+    border-right: 1px solid #E75A50;
+    position: relative;
+}
+#changzheng-ad1{
+    width: 800px;
+    height: 440px;
+    position: absolute;
+    left: 404px;
+    top:30px;
+}
+#changzheng-ad1 dl,#changzheng-ad1 dl dt, #changzheng-ad1 dl dd{
+    padding: 0px;
+    margin: 0px;
+}
+#changzheng-ad1 dl{
+    float: left;
+    width: 196px;
+    height: 220px;
+    border-right: 1px solid #E75A50;
+    border-bottom: 1px solid #E75A50;
+    background-color: white;
+}
+#changzheng-ad1 dl:hover{
+    background-color: #FAFAFA;
+}
+#changzheng-ad1 dl dt{
+    margin: 20px 35px;
+    height: 120px;
+}
+#changzheng-ad1 dl dd{
+    height: 30px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+#changzheng-ad1 dl dd a{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+}
+#changzheng-ad1 dl dd a:hover{
+    color: #8EBAAE;
+}
+#changzheng-ad1 dl dd .wuhuo{
+    color: gray;
+    font-size: 12px;
+    float: right;
+}
+#changzheng-ad1 dl dd .yushou{
+    color: red;
+    font-size: 12px;
+    float: right;
+}
+#changzheng-ad1 dl .money{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+#br5{
+    width: 1193px;
+    height: 9px;
+    background-image: url("../images/pink.gif");
+    background-repeat: repeat;
+}
+/*品邮样式*/
+#pinyou{
+    width: 1193px;
+    height: 501px;
+    margin: 0px auto;
+    position: relative;
+}
+#pinyou p{
+    margin: 0px;
+    padding: 0px;
+    background-color: #00674A;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+#pinyou p a{
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    color: white;
+}
+#pinyou-ad{
+    width: 402px;
+    height: 440px;
+    background-image: url("../images/pinyou.gif");
+    background-repeat: no-repeat;
+    border-left: 1px solid #00674A;
+    border-right: 1px solid #00674A;
+    position: relative;
+}
+#pinyou-ad1{
+    width: 800px;
+    height: 440px;
+    position: absolute;
+    left: 404px;
+    top:30px;
+}
+#pinyou-ad1 dl,#pinyou-ad1 dl dt, #pinyou-ad1 dl dd{
+    padding: 0px;
+    margin: 0px;
+}
+#pinyou-ad1 dl{
+    float: left;
+    width: 196px;
+    height: 220px;
+    border-right: 1px solid #00674A;
+    border-bottom: 1px solid #00674A;
+    background-color: white;
+}
+#pinyou-ad1 dl:hover{
+    background-color: #FAFAFA;
+}
+#pinyou-ad1 dl dt{
+    margin: 20px 35px;
+    height: 120px;
+}
+#pinyou-ad1 dl dd{
+    height: 30px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+#pinyou-ad1 dl dd a{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+}
+#pinyou-ad1 dl dd a:hover{
+    color: #8EBAAE;
+}
+#pinyou-ad1 dl .money{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+#br6{
+    width: 1193px;
+    height: 9px;
+    background-image: url("../images/green.gif");
+    background-repeat: repeat;
+}
+/*动漫样式*/
+#dongman{
+    width: 1193px;
+    height: 501px;
+    margin: 0px auto;
+    position: relative;
+}
+#dongman p{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFD300;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+#dongman p a{
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    color: white;
+}
+#dongman-ad{
+    width: 402px;
+    height: 441px;
+    background-image: url("../images/dongman.gif");
+    background-repeat: no-repeat;
+    border-left: 1px solid #FFD300;
+    border-right:1px solid #FFD300;
+    position: relative;
+}
+#dongman-ad1{
+    width: 800px;
+    height: 441px;
+    position: absolute;
+    left: 404px;
+    top:30px;
+}
+#dongman-ad1 dl,#dongman-ad1 dl dt, #dongman-ad1 dl dd{
+    padding: 0px;
+    margin: 0px;
+}
+#dongman-ad1 dl{
+    float: left;
+    width: 196px;
+    height: 220px;
+    border-right: 1px solid #FFD300;
+    border-bottom: 1px solid #FFD300;
+    background-color: white;
+}
+#dongman-ad1 dl:hover{
+    background-color: #FAFAFA;
+}
+#dongman-ad1 dl dt{
+    margin: 20px 35px;
+    height: 120px;
+}
+#dongman-ad1 dl dd{
+    height: 30px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+#dongman-ad1 dl dd a{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+}
+#dongman-ad1 dl dd a:hover{
+    color: #8EBAAE;
+}
+#dongman-ad1 dl dd .wuhuo{
+    color: gray;
+    font-size: 12px;
+    float: right;
+}
+#dongman-ad1 dl dd .yushou{
+    color: red;
+    font-size: 12px;
+    float: right;
+}
+#dongman-ad1 dl .money{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+#br7{
+    width: 1193px;
+    height: 9px;
+    background-image: url("../images/yellow.gif");
+    background-repeat: repeat;
+}
+/*特色样式*/
+#tese{
+    width: 1193px;
+    height: 501px;
+    margin: 0px auto;
+    position: relative;
+}
+#tese p{
+    margin: 0px;
+    padding: 0px;
+    background-color: #00674A;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+#tese p a{
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    color: white;
+}
+#tese-ad{
+    width: 402px;
+    height: 440px;
+    background-image: url("../images/tese.gif");
+    background-repeat: no-repeat;
+    border-left: 1px solid #00674A;
+    border-right:1px solid #00674A;
+    position: relative;
+}
+#tese-ad1{
+    width: 800px;
+    height: 440px;
+    position: absolute;
+    left:404px;
+    top:30px;
+}
+#tese-ad1 dl,#tese-ad1 dl dt, #tese-ad1 dl dd{
+    padding: 0px;
+    margin: 0px;
+}
+#tese-ad1 dl{
+    float: left;
+    width: 196px;
+    height: 220px;
+    border-right: 1px solid #00674A;
+    border-bottom: 1px solid #00674A;
+    background-color: white;
+}
+#tese-ad1 dl:hover{
+    background-color: #FAFAFA;
+}
+#tese-ad1 dl dt{
+    margin: 20px 35px;
+    height: 120px;
+}
+#tese-ad1 dl dd{
+    height: 30px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+#tese-ad1 dl dd a{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+}
+#tese-ad1 dl dd a:hover{
+    color: #8EBAAE;
+}
+#tese-ad1 dl dd .yushou{
+    color: red;
+    font-size: 12px;
+    float: right;
+}
+#tese-ad1 dl dd .wuhuo{
+    color: gray;
+    font-size: 12px;
+    float: right;
+}
+#tese-ad1 dl .money{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+#br8{
+    width: 1193px;
+    height: 9px;
+    background-image: url("../images/green.gif");
+    background-repeat: repeat;
+}
+/*背景样式*/
+#bg{
+    width: 100%;
+    height: 7px;
+    background-image: url("../images/yuan.png");
+    background-repeat: repeat;
+}
+#bg-content{
+    width: 1193px;
+    height: 7px;
+    background-image: url("../images/yuan.png");
+    background-repeat: repeat;
+}
+/*底部样式*/
+#foot{
+    width: 100%;
+}
+/*底部图标样式*/
+#foot-ad{
+    width: 1193px;
+    height: 150px;
+    margin: 0px auto;
+    border-bottom: 1px solid #ccc;
+}
+#foot-ad table tr td h2,#foot-ad table tr td p{
+    padding: 0px;
+    margin: 0px;
+}
+#foot-ad .images{
+    padding: 40px 10px;
+}
+#foot-ad .lines{
+    font-size: 60px;
+    color: #ccc;
+    padding:40px 10px ;
+}
+#foot-ad table tr td{
+    padding:40px 10px ;
+}
+/*服务部分*/
+#foot-server{
+    width: 1193px;
+    height: 210px;
+    margin: 0px auto;
+    position: relative;
+}
+/*新手上路样式*/
+#foot-server1{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+#foot-server1 h4,#foot-server1 p{
+    padding: 0px;
+    margin: 0px;
+}
+#foot-server1 p a{
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+#foot-server1 p a:hover{
+    color: #E75A50;
+}
+/*支付方式样式*/
+#foot-server2{
+    position: absolute;
+    left: 300px;
+    top: 50px;
+}
+#foot-server2 h4,#foot-server2 p{
+    padding: 0px;
+    margin: 0px;
+}
+#foot-server2 p a{
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+#foot-server2 p a:hover{
+    color: #E75A50;
+}
+/*配送方式样式*/
+#foot-server3{
+    position: absolute;
+    left: 580px;
+    top: 50px;
+}
+#foot-server3 h4,#foot-server3 p{
+    padding: 0px;
+    margin: 0px;
+}
+#foot-server3 p a{
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+#foot-server3 p a:hover{
+    color: #E75A50;
+}
+/*服务样式*/
+#foot-server4{
+    position: absolute;
+    left: 820px;
+    top: 50px;
+}
+#foot-server4 h4,#foot-server4 p{
+    padding: 0px;
+    margin: 0px;
+}
+#foot-server4 p a{
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+#foot-server4 p a:hover{
+    color: #E75A50;
+}
+/*底部背景颜色样式*/
+#foot-bg{
+    width: 100%;
+    height: 5px;
+    background-color: #FFD300;
+}
+#bgcolor{
+    width: 1193px;
+    height: 5px;
+    background-color: #FFD300;
+}
+/*底部版权样式*/
+#foot-own{
+    width: 100%;
+    background-color: #00674A;
+}
+#own{
+    width: 1193px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0px auto;
+    background-color: #00674A;
+}
+#own p{
+    margin: 0px;
+    padding:0px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}

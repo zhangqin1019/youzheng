@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>中国邮政集邮网</title>
+    <link href="../css/youzheng.css" type="text/css" rel="stylesheet"/>
+    <script  src="../javascript/youzheng.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="contain">
+    <div id="head"><!--头部登录注册-->
+        <div id="head-content">
+            <div id="head-content-right">
+                <ul>
+                    <li><span>你好，</span><a href="javascript:void(0);">[请登陆]</a><span class="a">免费注册</span><span class="line">|</span></li>
+                    <li><a href="javascript:void(0);">个人中心</a><span class="line">|</span></li>
+                    <li><a href="javascript:void(0);">购物车</a><span class="line">|</span></li>
+                    <li><a href="javascript:void(0);">收藏夹</a><span class="line">|</span></li>
+                    <li><a href="javascript:void(0);">关注我们</a><span class="line">|</span></li>
+                    <li><a href="javascript:void(0);">在线客服</a><span class="line">|</span></li>
+                    <li><a href="javascript:void(0);">帮助中心</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="search">
+        <div id="horseRunLamp"><!--跑马灯部分-->
+            <marquee>因客户端的多样性与浏览器的多样性，各客户端对于浏览器的兼容性都不一样，我们建议您在windows系统电脑下使用chrome，ie8以上浏览器，体验更流畅</marquee >
+        </div>
+        <div id="search-contain">
+            <div id="head-title"></div><!--图标部分-->
+            <div id="search-content"><!--搜索栏部分-->
+                <input type="text"/><a href="#">搜索</a>
+            </div>
+            <div id="kefu"></div><!--客服部分-->
+            <div id="youtong"></div><!--邮筒部分-->
+            <div id="daohang"><!--导航栏部分-->
+                <ul>
+                    <li><a href="javascript:void(0);">首页</a></li>
+                    <li><a href="javascript:void(0);">邮票零售</a></li>
+                    <li><a href="javascript:void(0);">邮品零售</a></li>
+                    <li><a href="javascript:void(0);">珍邮竞买</a></li>
+                    <li><a href="javascript:void(0);">集邮者之家</a></li>
+                    <li><a href="javascript:void(0);">地方特色</a></li>
+                    <li style="position: relative;" id="wen">
+                        <a href="javascript:void(0);">文化专区</a>
+                        <div id="wenhua">
+                            <p><a href="javascript:void(0);">大话新邮</a><a href="javascript:void(0);">文化专区</a></p>
+                        </div>
+                    </li>
+                    <li><a href="javascript:void(0);">防伪查询</a></li>
+                    <li><a href="javascript:void(0);">零售查询</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="banner">
+        <div id="banner-content">
+            <div id="banner-left"><!--左侧导航栏-->
+                   <ul>
+                       <li onmouseover="shows('piaopin')" onmouseout="nones('piaopin')" >票品题材<span>&gt;</span>
+                           <div id="piaopin">
+                               <ul>
+                                   <li><a href="javascript:void(0);">生肖</a></li>
+                                   <li><a href="javascript:void(0);">年册</a></li>
+                                   <li><a href="javascript:void(0);">青少年</a></li>
+                                   <li><a href="javascript:void(0);">文化</a></li>
+                                   <li><a href="javascript:void(0);">政治</a></li>
+                                   <li><a href="javascript:void(0);">经济</a></li>
+                                   <li><a href="javascript:void(0);">军事</a></li>
+                                   <li><a href="javascript:void(0);">科技</a></li>
+                                   <li><a href="javascript:void(0);">风光</a></li>
+                                   <li><a href="javascript:void(0);">节日</a></li>
+                                   <li><a href="javascript:void(0);">体育</a></li>
+                                   <li><a href="javascript:void(0);">实寄</a></li>
+                                   <li><a href="javascript:void(0);">珍邮</a></li>
+                               </ul>
+                           </div>
+                       </li>
+                       <li onmouseover="shows('zhongguo')" onmouseout="nones('zhongguo')">中国邮票<span>&gt;</span>
+                           <div id="zhongguo">
+                               <ul>
+                                   <li><a href="javascript:void(0);">邮票</a></li>
+                                   <li><a href="javascript:void(0);">小型张</a></li>
+                                   <li><a href="javascript:void(0);">小全张</a></li>
+                                   <li><a href="javascript:void(0);">小本票</a></li>
+                                   <li><a href="javascript:void(0);">小版票</a></li>
+                                   <li><a href="javascript:void(0);">大版票</a></li>
+                                   <li><a href="javascript:void(0);">风琴折</a></li>
+                                   <li><a href="javascript:void(0);">本票册</a></li>
+                                   <li><a href="javascript:void(0);">其他</a></li>
+                               </ul>
+                           </div>
+                       </li>
+                       <li onmouseover="shows('youzi')" onmouseout="nones('youzi')">邮资封片<span>&gt;</span>
+                           <div id="youzi">
+                               <ul>
+                                   <li><a href="javascript:void(0);">纪念邮资封</a></li>
+                                   <li><a href="javascript:void(0);">纪念邮资片</a></li>
+                                   <li><a href="javascript:void(0);">其他</a></li>
+                               </ul>
+                           </div>
+                       </li>
+                       <li onmouseover="shows('gexing')" onmouseout="nones('gexing')">个性化邮票<span>&gt;</span>
+                           <div id="gexing">
+                               <ul>
+                                   <li><a href="javascript:void(0);">个性化邮票</a></li>
+                                   <li><a href="javascript:void(0);">其他</a></li>
+                               </ul>
+                           </div>
+                       </li>
+                       <li onmouseover="shows('gangao')" onmouseout="nones('gangao')">港澳邮票<span>&gt;</span>
+                           <div id="gangao">
+                               <ul>
+                                   <li><a href="javascript:void(0);">香港邮票</a></li>
+                                   <li><a href="javascript:void(0);">澳门邮票</a></li>
+                                   <li><a href="javascript:void(0);">其他</a></li>
+                               </ul>
+                           </div>
+                       </li>
+                       <li onmouseover="shows('waiguo')" onmouseout="nones('waiguo')">外国邮票<span>&gt;</span>
+                           <div id="waiguo">
+                               <ul>
+                                   <li><a href="javascript:void(0);">英国</a></li>
+                                   <li><a href="javascript:void(0);">美国</a></li>
+                                   <li><a href="javascript:void(0);">澳大利亚</a></li>
+                                   <li><a href="javascript:void(0);">新西兰</a></li>
+                                   <li><a href="javascript:void(0);">加拿大</a></li>
+                                   <li><a href="javascript:void(0);">日本</a></li>
+                                   <li><a href="javascript:void(0);">韩国</a></li>
+                                   <li><a href="javascript:void(0);">新加坡</a></li>
+                                   <li><a href="javascript:void(0);">瑞士</a></li>
+                                   <li><a href="javascript:void(0);">法国</a></li>
+                                   <li><a href="javascript:void(0);">其他</a></li>
+                               </ul>
+                           </div>
+                       </li>
+                       <li onmouseover="shows('jiyou')" onmouseout="nones('jiyou')">集邮品<span>&gt;</span>
+                           <div id="jiyou">
+                               <ul>
+                                   <li><a href="javascript:void(0);">集邮信封</a></li>
+                                   <li><a href="javascript:void(0);">集邮明信片</a></li>
+                                   <li><a href="javascript:void(0);">集邮卡</a></li>
+                                   <li><a href="javascript:void(0);">集邮折</a></li>
+                                   <li><a href="javascript:void(0);">集邮册</a></li>
+                                   <li><a href="javascript:void(0);">其他</a></li>
+                               </ul>
+                           </div>
+                       </li>
+                       <li onmouseover="shows('shangpin')" onmouseout="nones('shangpin')">集邮商品<span>&gt;</span>
+                           <div id="shangpin">
+                               <ul>
+                                   <li><a href="javascript:void(0);">仿印制品</a></li>
+                                   <li><a href="javascript:void(0);">挂件</a></li>
+                                   <li><a href="javascript:void(0);">摆件</a></li>
+                                   <li><a href="javascript:void(0);">贵金属制品</a></li>
+                                   <li><a href="javascript:void(0);">纸钞硬币</a></li>
+                                   <li><a href="javascript:void(0);">徽章</a></li>
+                                   <li><a href="javascript:void(0);">玩具文具</a></li>
+                                   <li><a href="javascript:void(0);">其他</a></li>
+                               </ul>
+                           </div>
+                       </li>
+                       <li onmouseover="shows('yongpin')" onmouseout="nones('yongpin')">集邮用品<span>&gt;</span>
+                           <div id="yongpin">
+                               <ul>
+                                   <li><a href="javascript:void(0);">集邮用具</a></li>
+                                   <li><a href="javascript:void(0);">空册</a></li>
+                                   <li><a href="javascript:void(0);">书籍</a></li>
+                                   <li><a href="javascript:void(0);">其他</a></li>
+                               </ul>
+                           </div>
+                       </li>
+                       <li><a href="javascript:void(0);">更多分类</a><span>&gt;</span></li>
+                   </ul>
+            </div>
+            <div id="banner-middle"><!--图片轮播部分-->
+                <img src="../images/photo1.jpg" style="display: block;" name="imgs"/>
+                <img src="../images/photo2.jpg" style="display: none;" name="imgs"/>
+                <img src="../images/photo3.jpg" style="display: none;" name="imgs"/>
+                <img src="../images/photo4.jpg" style="display: none;" name="imgs"/>
+                <img src="../images/photo5.jpg" style="display: none;" name="imgs"/>
+            </div>
+            <div id="img-btn"><!--按钮-->
+                <input type="button" value="1" id="btn1" name="imgs-btn"/>
+                <input type="button" value="2" id="btn2" name="imgs-btn"/>
+                <input type="button" value="3" id="btn3" name="imgs-btn"/>
+                <input type="button" value="4" id="btn4" name="imgs-btn"/>
+                <input type="button" value="5" id="btn5" name="imgs-btn"/>
+            </div>
+            <div id="banner-right">
+                <div id="banner-right-top"><!--安卓 微信 ios部分-->
+                    <ul>
+                        <a href="javascript:void(0);"><li id="anzhuo">安卓</li></a>
+                        <a href="javascript:void(0);"><li id="weixin" style="background-color: #cbe4db;">微信</li></a>
+                        <a href="javascript:void(0);"><li id="iso" style="background-color: #cbe4db;">ios</li></a>
+                    </ul>
+                    <img src="../images/anzhuo.jpg" style="margin:12px;display: block;" id="imgcontent1"/>
+                    <img src="../images/weixin.PNG" style="margin:20px 20px;display: none;" id="imgcontent2"/>
+                    <img src="../images/iso.PNG" style="margin:12px;display: none;" id="imgcontent3"/>
+                </div>
+                <div id="banner-right-bottom"><!--新闻 公告 博览部分-->
+                    <ul>
+                        <a href="javascript:void(0);"><li id="xinwen">新闻</li></a>
+                        <a href="javascript:void(0);"><li id="gonggao" style="background-color: #cbe4db;">公告</li></a>
+                        <a href="javascript:void(0);"><li id="bolan" style="background-color: #cbe4db;">博览</li></a>
+                    </ul>
+                </div>
+                <div id="banner-right-bottom-content1"><!--新闻内容部分-->
+                    <ul>
+                        <li><a href="javascript:void(0);">【新闻】社会主义核心价值观主 ...</a></li>
+                        <li><a href="javascript:void(0);">【新闻】青藏铁路通车10周年 ...</a></li>
+                        <li><a href="javascript:void(0);">【新闻】河南省长征巡回活动接 ...</a></li>
+                        <li><a href="javascript:void(0);">【新闻】纪念建党95周年主题 ...</a></li>
+                        <li><a href="javascript:void(0);">【新闻】2016中国邮政明信 ...</a></li>
+                        <li><a href="javascript:void(0);">【新闻】《小浪底水利枢纽工程 ...</a></li>
+                        <li><a href="javascript:void(0);">查看更多</a></li>
+                    </ul>
+                </div>
+                <div id="banner-right-bottom-content2"><!--公告内容部分-->
+                    <ul>
+                        <li><a href="javascript:void(0);">【公告】淮水安澜 邮礼绽放</a></li>
+                        <li><a href="javascript:void(0);">【公告】悦读嘉年华&mdas ...</a></li>
+                        <li><a href="javascript:void(0);">【公告】关于《我的旅&ldq ...</a></li>
+                        <li><a href="javascript:void(0);">【公告】《正定隆兴寺》和《上 ...</a></li>
+                        <li><a href="javascript:void(0);">【公告】湖南专区《红楼品梦》 ...</a></li>
+                        <li><a href="javascript:void(0);">【公告】关于调整客服热线的公 ...</a></li>
+                        <li><a href="javascript:void(0);">查看更多</a></li>
+                    </ul>
+                </div>
+                <div id="banner-right-bottom-content3"><!--博览内容部分-->
+                    <ul>
+                        <li><a href="javascript:void(0);">【博览】《中国集邮年刊》（2 ...</a></li>
+                        <li><a href="javascript:void(0);">【博览】《中国集邮年刊（20 ...</a></li>
+                        <li><a href="javascript:void(0);">【博览】邮票上的APEC</a></li>
+                        <li><a href="javascript:void(0);">【博览】邮集制作窍门</a></li>
+                        <li><a href="javascript:void(0);">【博览】《集邮博览》2015 ...</a></li>
+                        <li><a href="javascript:void(0);">查看更多</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+       <div id="contents">
+           <div id="images-content">
+               <div id="video"><!--影片播放部分-->
+                   <video width="324" height="180" poster="../images/video.gif" controls>
+                       <source src="../video/video.mp4" type="video/mp4">
+                   </video>
+               </div>
+               <div id="tuijian"></div><!--推荐图片部分-->
+               <div id="hou"><!--猴图片部分-->
+                   <a href="javascript:void(0);"></a>
+               </div>
+               <div id="book"><!--书本图片部分-->
+                   <a href="javascript:void(0);"></a>
+               </div>
+           </div>
+           <div id="hongloumeng"><!--红楼梦部分-->
+               <p>开谈不说&lt;&lt;红楼梦&gt;&gt;,读尽诗书也枉然<a href="javascript:void(0);">查看更多&gt;&gt;</a></p>
+               <div id="hongloumeng-ad">
+                   <div class="touming"></div>
+               </div>
+               <div id="hongloumeng-ad1">
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/hongloumeng1.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;倚红楼&gt;&gt;邮册</a></dd>
+                       <dd class="money">&yen;248.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/hongloumeng2.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">A红楼梦:&lt;&lt;诗风词韵红楼梦&gt;&gt;邮票折扇珍藏</a></dd>
+                       <dd class="money">&yen;238.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/hongloumeng3.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;红楼梦&gt;&gt;邮票金珍藏册（赠&lt;&lt;三阳开泰&gt;&gt;邮册）</a></dd>
+                       <dd class="money">&yen;2880.00<span class="yushou">[预售]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/hongloumeng4.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">A整版票红楼梦:&lt;&lt;中国古典文学名著-红楼梦&gt;&gt;邮票玉牌...</a></dd>
+                       <dd class="money">&yen;690.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/hongloumeng5.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;传世名著邮苑赏珍&gt;&gt;珍藏册</a></dd>
+                       <dd class="money">&yen;228.00<spn class="wuhuo">[无货]</spn></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/hongloumeng6.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">A红楼梦【限量发行】:&lt;&lt;中国古典文学名著-红楼梦&gt;&gt;邮票珍...</a></dd>
+                       <dd class="money">&yen;480.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/hongloumeng7.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;静境写心-萧玉田作品集&gt;&gt;邮票</a></dd>
+                       <dd class="money">&yen;248.00<span class="yushou">[预售]</span><span class="weishou">[未售]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/hongloumeng8.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">四大名著邮票珍藏册</a></dd>
+                       <dd class="money">&yen;248.00<span class="yushou">[预售]</span><span class="weishou">[未售]</span></dd>
+                   </dl>
+               </div>
+               <div id="br"></div>
+           </div>
+           <div id="youpiao"><!--邮票部分-->
+               <p>邮票零售专区<a href="javascript:void(0);">查看更多&gt;&gt;</a></p>
+               <div id="youpiao-ad">
+                   <div class="touming"></div>
+               </div>
+               <div id="youpiao-ad1">
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/youpiao1.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">薪火相传</a></dd>
+                       <dd class="money">&yen;1.2<span class="wuhuo">[无货]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/youpiao2.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;中国工农红军长征胜利80周年&gt;&gt;纪念邮资明信片</a></dd>
+                       <dd class="money">&yen;1.2</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/youpiao3.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;2016世界月季洲际大会&gt;&gt;纪念邮资明信片</a></dd>
+                       <dd class="money">&yen;1.2</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/youpiao4.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;2016年汤姆斯杯暨尤伯杯赛&gt;&gt;纪念邮资明信片</a></dd>
+                       <dd class="money">&yen;1.2</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/youpiao5.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;西南大学建校110周年&gt;&gt;纪念邮资明信片</a></dd>
+                       <dd class="money">&yen;1.2</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/youpiao6.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;2015年北京国际田联世界田径锦标赛&gt;&gt;纪念邮资明信片</a></dd>
+                       <dd class="money">&yen;1.2</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/youpiao7.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">正定隆兴寺</a></dd>
+                       <dd class="money">&yen;2.7<span class="weishou">[未售]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/youpiao8.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">中国古典文学名著-&lt;&lt;红楼梦&gt;&gt;（二）</a></dd>
+                       <dd class="money">&yen;5.1<span class="weishou">[未售]</span></dd>
+                   </dl>
+               </div>
+               <div id="br1"></div>
+           </div>
+           <div id="yuedu"></div><!--悦读部分-->
+           <div id="zhenyou"><!--珍邮部分-->
+               <p>珍邮竟买<a href="javascript:void(0);">查看更多&gt;&gt;</a></p>
+               <div id="zhenyou-ad">
+                   <div class="touming"></div>
+               </div>
+               <div id="zhenyou-ad1">
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/zhenyou1.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;春节&gt;&gt;小版</a></dd>
+                       <dd class="money">&yen;39.60</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/zhenyou2.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;国际劳动节1889-1959&gt;&gt;套票</a></dd>
+                       <dd class="money">&yen;0.34</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/zhenyou3.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;&quot;三八&quot;国际妇女节五十周年&gt;&gt;套票</a></dd>
+                       <dd class="money">&yen;0.44</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/zhenyou4.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;感恩母亲&gt;&gt;小版</a></dd>
+                       <dd class="money">&yen;9.60</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/zhenyou5.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;重阳节&gt;&gt;小版</a></dd>
+                       <dd class="money">&yen;10.80</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/zhenyou6.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;荷花&gt;&gt;套票</a></dd>
+                       <dd class="money">&yen;0.94</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/zhenyou7.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;国际邮票、钱币博览会北京-1995&gt;&gt;无齿小全张</a></dd>
+                       <dd class="money">&yen;1.90</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/zhenyou8.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;云南山茶花&gt;&gt;套票</a></dd>
+                       <dd class="money">&yen;3.00</dd>
+                   </dl>
+               </div>
+               <div id="br2"></div>
+           </div>
+           <div id="chuantong"><!--传统部分-->
+               <p>传统文化专场网络品鉴会<a href="javascript:void(0);">查看更多&gt;&gt;</a></p>
+               <div id="chuantong-ad">
+                   <div class="touming"></div>
+               </div>
+               <div id="chuantong-ad1">
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/chuantong1.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;浴马图&gt;&gt;宣纸高仿件</a></dd>
+                       <dd class="money">&yen;88.00<span class="yushou">[预售]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/chuantong2.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;芬芳&gt;&gt;小版册</a></dd>
+                       <dd class="money">&yen;60.00<span class="yushou">[预售]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/chuantong3.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;T106M 熊猫&gt;&gt;型张折</a></dd>
+                       <dd class="money">&yen;70.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/chuantong4.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;J150M中国大龙邮票发行一百-十周年&gt;&gt;型张折</a></dd>
+                       <dd class="money">&yen;110.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/chuantong5.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;T144M杭州西湖&gt;&gt;型张折</a></dd>
+                       <dd class="money">&yen;80.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/chuantong6.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;浴马图&gt;&gt;编质高仿件</a></dd>
+                       <dd class="money">&yen;880.00<span class="yushou">[预售]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/chuantong7.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;T116M敦煌壁画（第一组）&gt;&gt;型张折</a></dd>
+                       <dd class="money">&yen;290.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/chuantong8.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;J162M孔子诞生二千五百二十四周年&gt;&gt;型张折</a></dd>
+                       <dd class="money">&yen;80.00</dd>
+                   </dl>
+               </div>
+               <div id="br3"></div>
+           </div>
+           <div id="jingpin"></div><!--精品部分-->
+           <div id=""></div>
+           <div id="duanwu"><!--端午部分-->
+               <p>端午满额回馈<a href="javascript:void(0);">查看更多&gt;&gt;</a></p>
+               <div id="duanwu-ad">
+                   <div class="touming"></div>
+               </div>
+               <div id="duanwu-ad1">
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/duanwu1.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;殷墟邮话&gt;&gt;方寸间品殷墟文化邮票书</a></dd>
+                       <dd class="money">&yen;80.00<span class="yushou">[预售]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/duanwu2.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;殷墟&gt;&gt;极限明信片</a></dd>
+                       <dd class="money">&yen;10.00<span class="yushou">[预售]</span><span class="wuhuo">[无货]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/duanwu3.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;殷墟&gt;&gt;邮票首封日</a></dd>
+                       <dd class="money">&yen;4.50<span class="yushou">[预售]</span><span class="wuhuo">[无货]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/duanwu4.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;萌画红楼（二）&gt;&gt;邮册</a></dd>
+                       <dd class="money">&yen;168.00<span class="yushou">[预售]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/duanwu5.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;水果（二）&gt;&gt;极限片</a></dd>
+                       <dd class="money">&yen;10.00<span class="yushou">[预售]</span><span class="wuhuo">[无货]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/duanwu6.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;静境写心-萧玉田作品集&gt;&gt;（总公司寄递）</a></dd>
+                       <dd class="money">&yen;398.00<span class="yushou">[预售]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/duanwu7.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;走遍中国 魅力古镇&gt;&gt;专题册（总公司寄递）</a></dd>
+                       <dd class="money">&yen;268.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/duanwu8.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;高隐贤逸&gt;&gt;型张折</a></dd>
+                       <dd class="money">&yen;228.00</dd>
+                   </dl>
+               </div>
+               <div id="br4"></div>
+           </div>
+           <div id="changzheng"><!--长征部分-->
+               <p>长征巡展邮品专区<a href="javascript:void(0);">查看更多&gt;&gt;</a></p>
+               <div id="changzheng-ad">
+                   <div class="touming"></div>
+               </div>
+               <div id="changzheng-ad1">
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/changzheng1.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;伟大壮举 光辉历程&gt;&gt;邮册（送签名版纪念封）</a></dd>
+                       <dd class="money">&yen;135.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/changzheng2.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;巾帼英雄-长征女红军&gt;&gt;合影邮折</a></dd>
+                       <dd class="money">&yen;25.00<span class="wuhuo">[无货]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/changzheng3.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;长征足迹&gt;&gt;雕刻版纪念封</a></dd>
+                       <dd class="money">&yen;99.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/changzheng4.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;重走长征路再塑名族魂&gt;&gt;</a></dd>
+                       <dd class="money">&yen;17.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/changzheng5.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;长征赞歌-沈桡伊手绘长征故事 红军长征过湖南&gt;&gt;明信片</a></dd>
+                       <dd class="money">&yen;20.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/changzheng6.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">HG&lt;&lt;中国古镇-七里坪&gt;&gt;邮折（湖北）</a></dd>
+                       <dd class="money">&yen;100.00<span class="yushou">[预售]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/changzheng7.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">HG&lt;&lt;大别情怀 文化黄冈&gt;&gt;邮册（湖北）</a></dd>
+                       <dd class="money">&yen;728.00<span class="yushou">[预售]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/changzheng8.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">HG&lt;&lt;红色热土 将军故里&gt;&gt;邮册（湖北）</a></dd>
+                       <dd class="money">&yen;288.00<span class="yushou">[预售]</span></dd>
+                   </dl>
+               </div>
+               <div id="br5"></div>
+           </div>
+           <div id="pinyou"><!--品邮部分-->
+               <p>品邮珍藏<a href="javascript:void(0);">查看更多&gt;&gt;</a></p>
+               <div id="pinyou-ad">
+                   <div class="touming"></div>
+               </div>
+               <div id="pinyou-ad1">
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/pinyou1.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;金猴献福&gt;&gt;纯金挂坠套装</a></dd>
+                       <dd class="money">&yen;818.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/pinyou2.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;江山如此多娇&gt;&gt;邮册</a></dd>
+                       <dd class="money">&yen;2500.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/pinyou3.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;猴乐图&gt;&gt;双联张</a></dd>
+                       <dd class="money">&yen;98.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/pinyou4.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;秘密脸谱&gt;&gt;涂色卡</a></dd>
+                       <dd class="money">&yen;38.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/pinyou5.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;跟专家学书法&gt;&gt;字帖</a></dd>
+                       <dd class="money">&yen;128.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/pinyou6.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;长沙名景（二）&gt;&gt;纪念封</a></dd>
+                       <dd class="money">&yen;30.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/pinyou7.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;长沙名景（一）&gt;&gt;纪念封（吴冠英手绘）</a></dd>
+                       <dd class="money">&yen;30.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/pinyou8.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;丝绸珍邮&gt;&gt;</a></dd>
+                       <dd class="money">&yen;11180.00</dd>
+                   </dl>
+               </div>
+               <div id="br6"></div>
+           </div>
+           <div id="dongman"><!--动漫部分-->
+               <p>动漫专区<a href="javascript:void(0);">查看更多&gt;&gt;</a></p>
+               <div id="dongman-ad">
+                   <div class="touming"></div>
+               </div>
+               <div id="dongman-ad1">
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/dongman1.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">迪士尼小版册</a></dd>
+                       <dd class="money">&yen;118.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/dongman2.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">迪士尼纪念金邮</a></dd>
+                       <dd class="money">&yen;698.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/dongman3.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">迪士尼 公主徽章（SDP）</a></dd>
+                       <dd class="money">&yen;108.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/dongman4.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">迪士尼 奇妙仙子相框 预售</a></dd>
+                       <dd class="money">&yen;60.00<span class="yushou">[预售]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/dongman5.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">迪士尼 米奇邮筒多功能摆件 预售</a></dd>
+                       <dd class="money">&yen;120.00<span class="yushou">[预售]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/dongman6.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;上海迪士尼&gt;&gt;明信片 预售</a></dd>
+                       <dd class="money">&yen;6.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/dongman7.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;上海迪士尼&gt;&gt;小全张首日封 预售</a></dd>
+                       <dd class="money">&yen;7.50<span class="wuhuo">[无货]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/dongman8.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;上海迪士尼&gt;&gt;首日封 预售</a></dd>
+                       <dd class="money">&yen;6.00</dd>
+                   </dl>
+               </div>
+               <div id="br7"></div>
+           </div>
+           <div id="tese"><!--特色部分-->
+               <p>地方特色<a href="javascript:void(0);">查看更多&gt;&gt;</a></p>
+               <div id="tese-ad">
+                   <div class="touming"></div>
+               </div>
+               <div id="tese-ad1">
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/tese1.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;起航&gt;&gt;-第十一届中国国际航空航天博览会纪念银章套装</a></dd>
+                       <dd class="money">&yen;388.00<span class="yushou">[预售]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/tese2.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;夏之行歌&gt;&gt;二十四节气（二）手绘邮票书</a></dd>
+                       <dd class="money">&yen;59.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/tese3.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;生肖魂宝&gt;&gt;第三轮生肖-甲申年猴大版</a></dd>
+                       <dd class="money">&yen;1730.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/tese4.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;生肖魂宝&gt;&gt;第三轮生肖-乙酉年鸡大版</a></dd>
+                       <dd class="money">&yen;590.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/tese5.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;生肖魂宝&gt;&gt;第三轮生肖-葵已年蛇大版</a></dd>
+                       <dd class="money">&yen;610.00<span class="yushou">[预售]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/tese6.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;生肖魂宝&gt;&gt;第三轮生肖-甲午年马大版</a></dd>
+                       <dd class="money">&yen;390.00</dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/tese7.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;生肖魂宝&gt;&gt;乙酉年鸡小版</a></dd>
+                       <dd class="money">&yen;435.00<span class="wuhuo">[无货]</span></dd>
+                   </dl>
+                   <dl>
+                       <dt><a href="javascript:void(0);"><img src="../images/tese8.gif"/></a></dt>
+                       <dd><a href="javascript:void(0);">&lt;&lt;生肖魂宝&gt;&gt;戊子年鼠小版</a></dd>
+                       <dd class="money">&yen;190.00</dd>
+                   </dl>
+               </div>
+               <div id="br8"></div>
+           </div>
+       </div>
+        <div id="bg"><!--背景部分-->
+            <div id="bg-content"></div>
+        </div>
+    </div>
+    <div id="foot">
+        <div id="foot-ad"><!--底部图标部分-->
+            <table>
+                <tr>
+                    <td class="images"><img src="../images/you.gif"/></td>
+                    <td><h2>品质保证</h2><p>品质护航，购物无忧</p></td>
+                    <td><span class="lines">|</span></td>
+                    <td class="images"><img src="../images/te.gif"/></td>
+                    <td><h2>特色服务</h2><p>为您呈现不一样的服务</p></td>
+                    <td><span class="lines">|</span></td>
+                    <td class="images"><img src="../images/ji.gif"></td>
+                    <td><h2>集藏文化</h2><p>收藏 投资 交流</p></td>
+                    <td><span class="lines">|</span></td>
+                    <td class="images"><img src="../images/link.gif"></td>
+                    <td><h2>联系我们</h2><p>11185-9-1<br/>11185-1-2-1</p></td>
+                </tr>
+            </table>
+        </div>
+        <div id="foot-server"><!--底部服务部分-->
+            <div id="foot-server1">
+                <h4>新手上路</h4>
+                <p><a href="javascript:void(0);">积分规则</a></p>
+                <p><a href="javascript:void(0);">购物流程</a></p>
+                <p><a href="javascript:void(0);">常见问题</a></p>
+                <p><a href="javascript:void(0);">注册服务条款</a></p>
+                <p><a href="javascript:void(0);">隐私保护政策</a></p>
+            </div>
+            <div id="foot-server2">
+                <h4>支付方式</h4>
+                <p><a href="javascript:void(0);">支付方式</a></p>
+                <p><a href="javascript:void(0);">付款常见问题</a></p>
+            </div>
+            <div id="foot-server3">
+                <h4>配送方式</h4>
+                <p><a href="javascript:void(0);">配送范围</a></p>
+                <p><a href="javascript:void(0);">配送方式</a></p>
+            </div>
+            <div id="foot-server4">
+                <h4>服务</h4>
+                <p><a href="javascript:void(0);">换货协议</a></p>
+                <p><a href="javascript:void(0);">保证金规则介绍</a></p>
+                <p><a href="javascript:void(0);">竞买流程及注意事项</a></p>
+                <p><a href="javascript:void(0);">免责条款</a></p>
+                <p><a href="javascript:void(0);">关于我们</a></p>
+            </div>
+        </div>
+        <div id="foot-bg"><!--底部背景部分-->
+            <div id="bgcolor"></div>
+        </div>
+        <div id="foot-own"><!--底部版权部分-->
+            <div id="own">
+                <p>因客户端的多样性与浏览器的多样性，各客户端对于浏览器的兼容性都不一样，我们建议您在windows系统电脑下使用chrome，ie8以上浏览器，体验更流畅;</p>
+                <p>Copyright &copy; 2003-2014 中国邮政版权所有 备案/许可证编号为：京ICP备11025334号 经营许可证编号:京ICP证110573号</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
